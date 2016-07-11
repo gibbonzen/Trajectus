@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Trajectus.Models
 {
-    public class path
+    public class Path
     {
     }
 }
