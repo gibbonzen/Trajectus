@@ -7,6 +7,8 @@ namespace Trajectus.Models
 {
     public class Step
     {
+        public int StepID { get; set; }
+
         public string Name { get; set; }
         public int Index { get; set; }
 

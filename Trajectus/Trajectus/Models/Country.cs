@@ -7,6 +7,7 @@ namespace Trajectus.Models
 {
     public class Country
     {
+        public int CountryID { get; set; }
         public string Name { get; set; }
         public string Code { get; set; }
         public double GoldAveragePerDay { get; set; }

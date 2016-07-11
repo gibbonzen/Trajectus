@@ -7,6 +7,7 @@ namespace Trajectus.Models
 {
     public class City : BaseLocalisable
     {
+        public int CityID { get; set; }
         public string Name { get; set; }
         
     }

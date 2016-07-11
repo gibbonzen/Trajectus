@@ -7,6 +7,8 @@ namespace Trajectus.Models
 {
     public class Route
     {
+        public int RouteID { get; set; }
+
         public ICollection<Step> Steps { get; set; }
         public ICollection<Path> Paths { get; set; }
 

@@ -8,6 +8,8 @@ namespace Trajectus.Models
 {
     public class Travel
     {
+        public int TravelID { get; set; }
+
         public string Name { get; set; }
 
         public int Travelers { get; set; }

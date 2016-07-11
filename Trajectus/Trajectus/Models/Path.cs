@@ -7,6 +7,8 @@ namespace Trajectus.Models
 {
     public class Path
     {
+        public int PathID { get; set; }
+
         public City StartCity { get; set; }
         public City StopCity { get; set; }
 

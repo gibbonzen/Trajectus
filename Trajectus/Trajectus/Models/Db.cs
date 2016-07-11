@@ -17,6 +17,16 @@
         {
         }
 
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Continent> Continents { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<GPSPosition> GPSPositions { get; set; }
+        public DbSet<Path> Paths { get; set; }
+        public DbSet<Route> Routes { get; set; }
+        public DbSet<Step> Steps { get; set; }
+        public DbSet<Travel> Travels { get; set; }
+        public DbSet<User> Users { get; set; }
+
         // Ajoutez un DbSet pour chaque type d'entité à inclure dans votre modèle. Pour plus d'informations 
         // sur la configuration et l'utilisation du modèle Code First, consultez http://go.microsoft.com/fwlink/?LinkId=390109.
 
