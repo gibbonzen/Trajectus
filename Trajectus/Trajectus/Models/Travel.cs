@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 using Trajectus.Models;
@@ -10,6 +11,7 @@ namespace Trajectus.Models
     {
         public int TravelID { get; set; }
 
+        [Required]
         public string Name { get; set; }
 
         public int Travelers { get; set; }
