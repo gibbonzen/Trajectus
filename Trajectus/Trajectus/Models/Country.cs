@@ -7,19 +7,19 @@ namespace Trajectus.Models
 {
     public class Country
     {
-        public string Name;
-        public string Code;
+        public string Name { get; set; }
+        public string Code { get; set; }
 
-        public double GoldAveragePerDay;
-        public string Currency;
+        public double GoldAveragePerDay { get; set; }
+        public string Currency { get; set; }
 
-        public string Language;
+        public string Language { get; set; }
 
-        public int Population;
+        public int Population { get; set; }
 
-        public double Longitude;
-        public double Latitude;
+        public double Longitude { get; set; }
+        public double Latitude { get; set; }
 
-        public string CapitalCity;
+        public string CapitalCity { get; set; }
     }
 }
