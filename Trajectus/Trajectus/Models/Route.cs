@@ -7,5 +7,11 @@ namespace Trajectus.Models
 {
     public class Route
     {
+        public ICollection<Step> Steps { get; set; }
+        public ICollection<Path> Paths { get; set; }
+
+        public DateTime StartDate { get; set; }
+        public DateTime? StopDate { get; set; }
+
     }
 }

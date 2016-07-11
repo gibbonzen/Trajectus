@@ -7,6 +7,7 @@ namespace Trajectus.Models
 {
     public class Continent
     {
-        public List<Country> Countries;
+        public string Name { get; set; }
+        public List<Country> Countries { get; set; }
     }
 }

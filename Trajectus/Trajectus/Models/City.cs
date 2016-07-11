@@ -5,9 +5,9 @@ using System.Web;
 
 namespace Trajectus.Models
 {
-    public class City
+    public class City : BaseLocalisable
     {
-        public string name;
-
+        public string Name { get; set; }
+        
     }
 }
