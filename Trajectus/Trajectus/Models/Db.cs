@@ -1,4 +1,4 @@
-﻿namespace Trasport.Models
+﻿namespace Trajectus.Models
 {
     using System;
     using System.Data.Entity;
@@ -8,7 +8,7 @@
     {
         // Votre contexte a été configuré pour utiliser une chaîne de connexion « Db » du fichier 
         // de configuration de votre application (App.config ou Web.config). Par défaut, cette chaîne de connexion cible 
-        // la base de données « Trasport.Db » sur votre instance LocalDb. 
+        // la base de données « Trajectus.Db » sur votre instance LocalDb. 
         // 
         // Pour cibler une autre base de données et/ou un autre fournisseur de base de données, modifiez 
         // la chaîne de connexion « Db » dans le fichier de configuration de l'application.

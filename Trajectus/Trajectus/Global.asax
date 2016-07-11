@@ -1,1 +1,1 @@
-﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Trasport.Global" Language="C#" %>
+﻿<%@ Application Codebehind="Global.asax.cs" Inherits="Trajectus.Global" Language="C#" %>
