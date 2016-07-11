@@ -62,5 +62,7 @@ D:\developpement\Trajectus\Trajectus\Trajectus\bin\fr\System.Web.Mvc.resources.d
 D:\developpement\Trajectus\Trajectus\Trajectus\bin\fr\System.Net.Http.Formatting.resources.dll
 D:\developpement\Trajectus\Trajectus\Trajectus\bin\fr\System.Web.Http.resources.dll
 D:\developpement\Trajectus\Trajectus\Trajectus\bin\fr\System.Web.Http.WebHost.resources.dll
+D:\developpement\Trajectus\Trajectus\Trajectus\obj\Debug\Trajectus.Migrations.Migration1.resources
+D:\developpement\Trajectus\Trajectus\Trajectus\obj\Debug\Trajectus.csproj.GenerateResource.Cache
 D:\developpement\Trajectus\Trajectus\Trajectus\obj\Debug\Trajectus.dll
 D:\developpement\Trajectus\Trajectus\Trajectus\obj\Debug\Trajectus.pdb
