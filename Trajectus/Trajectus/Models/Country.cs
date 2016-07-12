@@ -14,12 +14,12 @@ namespace Trajectus.Models
         [Required]
         public string CapitalCity { get; set; }
         [Required]
-        public List<Currency> Currencies { get; set; }
+        public List<string> Currencies { get; set; }
         [Required]
-        public List<Language> Languages { get; set; }
+        public List<object> Languages { get; set; }
         public int Population { get; set; }
-        public string CallingCode { get; set; }
-        public List<TimeZone> TimeZones { get; set; }
+        public List<string> CallingCode { get; set; }
+        public List<string> TimeZones { get; set; }
         public double GoldAveragePerDay { get; set; }        
 
 

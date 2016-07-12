@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Trajectus.Business
 {
-    interface IWebConvertible
+    public interface IWebConvertible<T, U>
     {
         T Convert<T, U>(U WebModel);
     }
