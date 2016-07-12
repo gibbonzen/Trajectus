@@ -72,7 +72,7 @@ namespace Trajectus.Controllers
         }
 
         // POST: api/Countries
-        [ResponseType(typeof(Country))]
+        [ResponseType(typeof(CountryWeb))]
         public async Task<IHttpActionResult> PostCountry(Country country)
         {
             if (!ModelState.IsValid)

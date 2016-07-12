@@ -11,6 +11,5 @@ namespace Trajectus.Models
         public int ContinentID { get; set; }
         [Required]
         public string Name { get; set; }
-        [Required]
     }
 }
