@@ -157,9 +157,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201607111418199_Migration1.cs" />
-    <Compile Include="Migrations\201607111418199_Migration1.Designer.cs">
-      <DependentUpon>201607111418199_Migration1.cs</DependentUpon>
+    <Compile Include="Migrations\201607120726161_M1.cs" />
+    <Compile Include="Migrations\201607120726161_M1.Designer.cs">
+      <DependentUpon>201607120726161_M1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\City.cs" />
@@ -193,8 +193,8 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201607111418199_Migration1.resx">
-      <DependentUpon>201607111418199_Migration1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201607120726161_M1.resx">
+      <DependentUpon>201607120726161_M1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
