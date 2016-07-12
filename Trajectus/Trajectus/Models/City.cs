@@ -11,5 +11,7 @@ namespace Trajectus.Models
         public int CityID { get; set; }
         [Required]
         public string Name { get; set; }
+
+        public int CountryID { get; set; }
     }
 }

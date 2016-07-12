@@ -21,5 +21,7 @@ namespace Trajectus.Models
         public string CallingCode { get; set; }
         public List<TimeZone> TimeZones { get; set; }
         public double GoldAveragePerDay { get; set; }        
+
+
     }
 }

@@ -12,6 +12,5 @@ namespace Trajectus.Models
         [Required]
         public string Name { get; set; }
         [Required]
-        public List<Country> Countries { get; set; }
     }
 }
